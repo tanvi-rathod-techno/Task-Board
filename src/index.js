@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Board, { moveCard } from "@lourenci/react-kanban";
 import "@lourenci/react-kanban/dist/styles.css";
 import TaskBorad from './TaskBoard';
+import ChatBoard from './ChatBoard';
 // Use your own styles to override the default styles
 // import "./styles.css";
 
@@ -103,6 +104,7 @@ function App() {
     <>
         {/* <UncontrolledBoard /> */}
       <TaskBorad />
+      {/* <ChatBoard /> */}
     </>
   );
 }

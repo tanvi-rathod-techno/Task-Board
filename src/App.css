@@ -107,6 +107,7 @@ body {
   font-size: 16px;
 }
 
+
 .select-field {
   padding: 10px;
   border: 2px solid #28a745;
@@ -127,4 +128,9 @@ body {
 
 .button:hover {
   background-color: #0056b3;
+}
+
+.message-div {
+  background-color: grey;
+  gap: 10px;
 }
